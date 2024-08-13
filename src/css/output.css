@@ -672,6 +672,10 @@ video {
   height: 60%;
 }
 
+.h-\[95\.5\%\] {
+  height: 95.5%;
+}
+
 .h-full {
   height: 100%;
 }
@@ -680,20 +684,12 @@ video {
   height: 100vh;
 }
 
-.h-\[96\%\] {
-  height: 96%;
-}
-
-.h-\[95\.5\%\] {
-  height: 95.5%;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
 
-.w-\[75\%\] {
-  width: 75%;
+.w-\[60\%\] {
+  width: 60%;
 }
 
 .w-full {
@@ -821,6 +817,16 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.px-32 {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.py-2\.5 {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
 }
 
 .pb-16 {

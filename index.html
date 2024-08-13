@@ -24,7 +24,7 @@
   </head>
   <body>
     <header class="fixed top-2 left-0 w-full z-10">
-      <div class="container mx-auto px-16">
+      <div class="container mx-auto px-32">
         <nav class="rounded-full bg-slate-100 w-full mx-auto">
           <ul
             class="flex flex-row justify-evenly items-center text-lg font-semibold capitalize"
@@ -32,7 +32,7 @@
             <li>
               <a href="#"
                 ><img
-                  class="h-[60%] w-[75%]"
+                  class="h-[60%] w-[60%]"
                   src="./src/assets/img/logo.png"
                   alt=""
               /></a>
@@ -42,7 +42,9 @@
             <li><a href="#">price</a></li>
             <li><a href="#">about us</a></li>
             <li>
-              <a href="#" class="bg-red-600 text-white px-4 py-3 rounded-full"
+              <a
+                href="#"
+                class="bg-red-600 text-white text-sm px-4 py-2.5 rounded-full"
                 >book to call</a
               >
             </li>
@@ -57,7 +59,7 @@
         <div class="container mx-auto px-8 pb-16">
           <div class="grid grid-cols-2 text-white gap-8">
             <!-- content -->
-            <div class="capitalize">
+            <div id="hero_content" class="capitalize">
               <p class="font-semibold text-lg">motion mind studio</p>
               <h1 class="font-extrabold mb-5 text-8xl">
                 sass video specialist
@@ -157,5 +159,11 @@
         </div>
       </div>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+    <script type="module" src="./src/js/my-js.js"></script>
   </body>
 </html>
