@@ -789,9 +789,9 @@ video {
   padding: 1.25rem;
 }
 
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
+.px-32 {
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 .px-4 {
@@ -812,16 +812,6 @@ video {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-.px-32 {
-  padding-left: 8rem;
-  padding-right: 8rem;
 }
 
 .py-2\.5 {
@@ -899,4 +889,16 @@ video {
 
 body {
   font-family: "Roboto", system-ui;
+  background-color: black;
+}
+
+.feature_section {
+  opacity: 0;
+  transform: scale(1.5) translateX(20%);
+  transition: opacity 0.5s ease, transform 0.8s ease;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
