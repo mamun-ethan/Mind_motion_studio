@@ -31,9 +31,17 @@ function animateFeatureSection(scrollPosition, maxScroll) {
   if (scrollPosition > maxScroll) {
     featureSection.style.opacity = "1";
     featureSection.style.transform = "scale(1) translateX(0)";
+    children_of_parent.forEach((child) => {
+      setTimeout(() => {
+        child.style.transform = "translateX(0)";
+      });
+    });
   } else {
     featureSection.style.opacity = "0";
     featureSection.style.transform = "scale(1.2) translateX(5%)";
+    children_of_parent.forEach((child, index) => {
+      child.style.transform = `translateX(${8 * index}%)`;
+    });
   }
 }
 
